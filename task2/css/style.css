@@ -1,0 +1,113 @@
+#head,#tail{
+    background-color: dimgrey;
+    height:60px;
+}
+#tail{
+    text-align:center;
+    line-height:60px;
+}
+#head{
+    line-height:60px;
+}
+#headLinks{
+    margin:0;
+    float:right;
+}
+#headLinks>li{
+    float:right;
+    margin:0 10px;
+}
+h1,h2{
+    margin:0px;
+    font-family:"微软雅黑";
+}
+h3,h4{
+    font-family:"微软雅黑";
+    color:grey;
+}
+p{
+    font-family:"微软雅黑";
+    text-indent:2em;
+    line-height:1.7em;
+}
+.whiteBlock{
+    background-color: white;
+    margin:20px;
+    box-shadow:2px 2px dimgrey;
+    padding:30px 20px;
+}
+body{
+    margin:0px;
+    background-color: gainsboro;
+}
+a{
+    color:blue;
+}
+ul.noDot{
+    list-style:none;
+    font-family: 微软雅黑;
+}
+ol.rank{
+    font-family: 微软雅黑;
+}
+.show{
+    border:1px solid darkgrey;
+    width:250px;
+    text-align:center;
+    padding:10px;
+    margin:20px;
+}
+.show img{
+    padding-top:10px;
+    width:100%;
+}
+table {
+    width:100%;
+    text-align:left;
+}
+table .lastLine td{
+    background-color: gainsboro;
+}
+table th{
+    background-color: black;
+    color:white;
+}
+table,th,td{
+    font-family: 微软雅黑;
+    border:1px solid gainsboro;
+    border-collapse: collapse;
+}
+#sideTitle{
+    margin:0 0 20px 0;
+    font-family:"微软雅黑";
+    color:black;
+}
+form{
+    font-family: 微软雅黑;
+}
+form label{
+    width:400px;
+    height:20px;
+    float:left;
+    text-align:right;
+
+}
+form .spLabel{
+    text-align:left;
+    color:darkgrey;
+}
+form input,select{
+    margin-bottom:20px;
+}
+.qButton{
+    width:100%;
+    background-color: royalblue;
+    color:white;
+    padding:10px 0;
+    border-radius: 8px;
+    margin-bottom:0;
+}
+#favicon{
+    padding:8px;
+}
+
