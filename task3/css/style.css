@@ -1,0 +1,32 @@
+#left{
+    width:160px;
+    position:absolute;
+    left:0;
+    margin:20px;
+}
+#right{
+    width:80px;
+    position:absolute;
+    right:0;
+    margin:20px;
+}
+#all,#left,#right,#main{
+    border:1px solid #999;
+    padding:20px;
+}
+#left,#right{
+    top:0;
+}
+#all{
+    background-color: #eee;
+    position:relative;
+    margin:20px;
+    }
+    #main{
+    margin-left:220px;
+    margin-right:140px;
+}
+html,body{
+    margin:0px;
+}
+

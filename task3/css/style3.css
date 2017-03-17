@@ -1,0 +1,49 @@
+html.body{
+    margin:0px;
+}
+#all,#left,#right,#middle{
+    border:1px solid #999;
+    padding:20px;
+}
+#all{
+    background-color: #eee;
+    margin:20px;
+}
+#main{
+    float:left;
+    width:100%;
+}
+#main #middle{
+    margin-left:220px;
+    margin-right:160px;
+}
+#left{
+    float:left;
+    width:160px;
+    margin-left:-100%;
+}
+#right{
+    float:left;
+    width:80px;
+    margin-left:-140px;
+}
+.teamLogo{
+    float:left;
+    margin-right:20px;
+}
+.pLogo{
+    margin-bottom:20px;
+}
+#lastLogo{
+    margin-bottom:0;
+}
+#left,#right,#middle{
+    background-color: white;
+}
+#all:after{
+    display:block;
+    content: 'dd';
+    clear:both;
+    line-height:0;
+    visibility: hidden;
+}
